@@ -1,0 +1,48 @@
+  <!DOCTYPE html>
+  <html>
+  <meta charset="UTF-8">   
+  <header>
+    <title>Cadastro de Usuário</title>
+    <!--<style type="text/css">
+    <link href="./css/master.css" rel="stylesheet" type="text/css" /> 
+
+    <style type="text/css">
+        @import url("./css/master.css");
+    </style>
+    -->
+    <link href="css/master.css" rel="stylesheet" media="screen">
+
+  </header>
+  	<body>
+      <div id="Recipiente">
+          <center> <br/>
+            <br/>
+              <h2><b>Cadastro de Usuário</b></h2>
+            <br/>
+          </center>
+        <br/>        
+        <div class="div_conteudo">
+        <div id="div_filho">
+          <form action="pagina de ação" method="post" name="dados" onSubmit="return enviardados();" > 
+            <h4>Nome: <input type="text" name="nomAluno" value="" placeholder="Ex.: Maurício Dornellas" size="59px"></h4>
+            <br>
+            <h4>Mat.: <input type="text" name="matAluno" value="" placeholder="Ex.: 04567850401" size="61px"></h4>
+            <br>
+            <h4>E-mail: <input type="text" name="email" value="" placeholder="Ex.: mauricio@mauricio.com.br" size="59px"></h4>
+            <br>
+            <h4>Confirmar e-mail: <input class="" type="text" name="confirmaEmail" value="" placeholder="Ex.: mauricio@mauricio.com.br" size="50px"></h4>
+            <br>
+            <h4>Senha: <input type="password" name="senAluno" value="" placeholder="Ex.: 123456" size="60px"></h4>
+            <br> 
+            <h4>Confirmar Senha: <input type="password" name="confirmarSenha" value="" placeholder="Ex.: 123456" size="50px"></h4>
+            <br>
+            <input type="submit" class="btn btn-info" name="btnSalvar" value="Salvar" onClick="alert('Salvo com Sucesso!')">&nbsp;
+            <input type="submit" class="btn btn-info" name="btnCancelar" value="Cancelar" onClick="javascript:location.href='/page0.html'">&nbsp;
+            <input type="submit" class="btn btn-info" name="btnCancelar" value="Limpar" onClick="javascript:location.href='/page0.html'">
+          </form>
+        </div> 
+        </div>
+        <br> 
+      </div>         
+  	</body>
+  </html>
